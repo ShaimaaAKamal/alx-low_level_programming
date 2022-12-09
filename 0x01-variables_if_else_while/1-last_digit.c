@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - function used to check whatever number is positive or nagative
- * 
+ * main - function used to check whatever number is positive or nagative 
  * Return:  0
  */
 
@@ -13,7 +12,6 @@ int main(void)
 	int n;
 	int last;
 	
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	last = n % 10;
@@ -24,5 +22,4 @@ int main(void)
 	else if (last == 0)
 		printf("Last digit of %d is %d and is 0\n", n, last);
 	return (0);
-
 }

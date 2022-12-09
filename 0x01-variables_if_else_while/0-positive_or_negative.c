@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - function used to check whatever number is positive or nagative
- * 
+ * main - function used to check whatever number is positive or nagative 
  * Return: 0
  */
 
