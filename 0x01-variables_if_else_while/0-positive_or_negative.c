@@ -4,7 +4,7 @@
 
 /**
  * main - function used to check whatever number is positive or nagative 
- * Return: 0
+ * Return: 0 always
  */
 
 int main(void)
