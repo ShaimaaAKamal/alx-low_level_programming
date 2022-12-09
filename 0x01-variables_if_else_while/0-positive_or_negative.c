@@ -4,7 +4,8 @@
 
 /**
  * main - function used to check whatever number is positive or nagative
- * Return : always 0
+ * 
+ * Return: 0
  */
 
 int main(void)
@@ -20,5 +21,4 @@ int main(void)
 	else    
 		printf("%d is zero\n", n);
 	return (0);
-
 }
