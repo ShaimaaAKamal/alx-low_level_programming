@@ -4,14 +4,15 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int i;
+	char low;
 
-	for (i = 97 ; i <= 122 ; i++)
-		putchar(i);
-	for (i = 65 ; i <= 90 ; i++)
-        	putchar(i);
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+	for (low = 'A'; low <= 'Z'; low++)
+		putchar(low);
 	putchar('\n');
 
 	return (0);
