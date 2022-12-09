@@ -10,7 +10,10 @@ int main(void)
 
 	for (i = 97 ; i <= 122 ; i++)
 	{
-		putchar(i);
+		if(i == 101 || i == 113)
+			continue;
+		else
+			putchar(i);
 	}
 	putchar('\n');
 
