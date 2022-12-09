@@ -11,7 +11,7 @@ int main(void)
 
 	for (low = 48; low <= 57; low++)
 		putchar(low);
-	for (low = 65; low <= 70; low++)
+	for (low = 97; low <= 102; low++)
 		putchar(low);
 	putchar('\n');
 
