@@ -2,9 +2,10 @@
 #include "main.h"
 /**
  * main - prints a string
- *
- * Return : 0 alwats
+ * Description: print _putchar word
+ * Return : 0.
  */
+
 int main(void)
 {
 	char name[8] = "_putchar";
@@ -12,7 +13,6 @@ int main(void)
 
 	for (i = 0; i < 8 ; i++)
 		_putchar(name[i]);
-	
 	_putchar('\n');
 
 	return (0);
