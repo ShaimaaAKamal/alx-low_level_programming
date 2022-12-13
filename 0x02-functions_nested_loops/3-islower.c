@@ -2,11 +2,11 @@
 
 /**
  * _islower  - Check description
- * Description: It checks whether the character is lower case or not, fed by a new line.
+ * Description: It checks whether the character is lower case or not.
  * @c:is a parameter char to check wheter it's lowercase or nit
  * Return: 1 if lowercase , 0 otherwise.
  */
-void _islower(int c)
+int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 		return (1);
