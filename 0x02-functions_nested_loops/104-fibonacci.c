@@ -16,10 +16,10 @@ int main(void)
 	i = 2;
 	printf("%ld, %ld, ", fibonacci[0], fibonacci[1]);
 
-	while (i <= 96)
+	while (i <= 94)
 	{
 		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-		if (i == 96)
+		if (i == 94)
 			printf("%ld\n", fibonacci[i]);
 		else
 			printf("%ld, ", fibonacci[i]);
