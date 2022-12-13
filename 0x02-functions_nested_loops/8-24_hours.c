@@ -1,34 +1,23 @@
 #include "main.h"
 
 /**
- * jack_bauer - Check description
- * Description: It prints minutes, fed by a new line.
- * Return: Nothing.
+ * jack_bauer - Check Holberton
+ * Description: function prints every minute in one day
+ * Return: Nothing
  */
 void jack_bauer(void)
 {
-	int i;
-	int j;
+	int H, M;
 
-	for (j = 0 ; j <= 23; j++)
+	for (H = 0; H < 24; H++)
 	{
-		for (i = 0; i <= 59 ; i++)
+		for (M = 0; M < 60; M++)
 		{
-			if (j < 10)
-			{
-				_putchar('0');
-				_putchar(j + '0');
-			}
-			else
-				_putchar(j + '0');
+			_putchar((H / 10) + '0');
+			_putchar((H % 10) + '0');
 			_putchar(':');
-			if (i < 10)
-			{
-				_putchar('0');
-				_putchar(i + '0');
-			}
-			else
-				_putchar(i + '0');
+			_putchar((M / 10) + '0');
+			_putchar((M % 10) + '0');
 			_putchar('\n');
 		}
 	}
