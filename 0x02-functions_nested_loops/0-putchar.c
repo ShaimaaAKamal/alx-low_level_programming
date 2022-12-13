@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 #include "main.h"
 /**
  * main - prints a string
@@ -7,11 +7,13 @@
  */
 int main(void)
 {
-	char name[8] = '_putchar';
+	char name[8] = "_putchar";
 	int i;
 
 	for (i = 0; i < 8 ; i++)
 		_putchar(name[i]);
-	_putchar("\n");
+	
+	_putchar('\n');
+
 	return (0);
 }
