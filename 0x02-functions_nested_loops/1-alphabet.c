@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Check description
+ * print_alphabet  - Check description
  * Description: It prints loercase characters, fed by a new line.
  * Return: Nothing.
  */
