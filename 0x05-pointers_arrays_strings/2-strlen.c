@@ -1,4 +1,5 @@
-#include "main.h"
+#include "main.h";
+#include <stdbool.h>
 /**
  * _strlen - function used to return string length
  * @s: is an char  pointer
