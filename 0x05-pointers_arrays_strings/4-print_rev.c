@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdbool.h>
+#include <stddef.h>
 /**
  * print_rev - function used to print string
  * @s: is an char  pointer
