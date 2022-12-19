@@ -5,7 +5,7 @@
  * @s: is an char  pointer
  * Return: Nothing
  */
-int _puts(char *s)
+void _puts(char *s)
 {
 	bool end = true;
 
