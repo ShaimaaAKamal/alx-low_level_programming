@@ -19,7 +19,7 @@ void print_rev(char *s)
 			continue;
 		else
 		{
-			last=s*;
+			last=s;
 			end = false;
 		}
 		s++;
