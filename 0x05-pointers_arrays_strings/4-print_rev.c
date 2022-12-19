@@ -30,7 +30,7 @@ void print_rev(char *s)
 			_putchar(*last);
 		else
 		{
-			-putchar(*last);
+			_putchar(*last);
 			break;
 		}
 		last--;
