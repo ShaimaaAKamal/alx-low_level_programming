@@ -7,6 +7,7 @@
  * Function to randomly generates password
 * of length N
 * return: 0
+*/
 void randomPasswordGeneration(int N)
 {
     // Initialize counter
