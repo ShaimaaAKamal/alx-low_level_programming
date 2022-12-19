@@ -8,32 +8,19 @@
  */
 void print_rev(char *s)
 {
-	bool end = true;
-	char *last = NULL;
-	bool rev = true;
-	char *start = s;
+	int len = 0;
 
-	while (end)
+	while (true)
 	{
-		if (*s != '\0')
-			continue;
+		if (*s == '\0')
+			break;
 		else
-		{
-			last=s;
-			end = false;
-		}
+			len++;
 		s++;
 	}
-	while (rev)
+	while (len >= 0)
 	{
-		if (last != start)
-			_putchar(*last);
-		else
-		{
-			_putchar(*last);
-			break;
-		}
-		last--;
+		_putchar(s[--len]);
 	}
 	_putchar('\n');
 }
